@@ -106,7 +106,7 @@ public class BaseClass extends ExcelToDataProvider{
 	 		mergedData.putAll((HashMap<String, String>)journeyDetails()[0][0]);
 	 		mergedData.putAll((HashMap<String, String>)passenderList()[0][0]);
 	 		mergedData.putAll((HashMap<String, String>)masterDetails()[0][0]);
-	 		Object [][] mergedInfo= new Object[1][];
+	 		Object [][] mergedInfo= new Object[][1];
 	 		mergedInfo[0]= new Object[] {mergedData};
 	 		
 	 		return mergedInfo;
